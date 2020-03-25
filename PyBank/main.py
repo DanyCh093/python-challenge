@@ -24,7 +24,7 @@ with open(file_to_load) as Investments_data:
 
     # Loop through all the rows of data we collect
         
-    headers = next('reader')
+    headers = next(reader)
         print ('headers')
 
     for row in reader:
